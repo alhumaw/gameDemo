@@ -1,0 +1,32 @@
+PLATFORMER GAME:
+
+2-D SIDE-SCROLLER
+NEED:
+    PLAYER:
+        HIT POINTS
+        DAMAGE DEALT
+        2D SPRITE
+        MOVEMENT
+        MECHANICS
+    ENEMY:
+        HIT POINTS
+        DAMAGE DEALT
+        2D SPRITE
+        MOVEMENT
+        MECHANICS
+    GUI:
+        CREATE
+    PHYSICS:
+        GRAVITY??
+        CAMERA VIEW
+    MAP:
+        BACKGROUND DESIGN
+        OBSTACLES
+        VARIOUS MECHANICS:
+            POWER-UPS
+            TRAPS
+
+ACTUALIZATION CLASSES:
+    MAIN
+    GAME
+
