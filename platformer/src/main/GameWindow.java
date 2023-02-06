@@ -16,6 +16,8 @@ public class GameWindow {
         Jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Jframe.add(gamePanel);
         Jframe.setLocationRelativeTo(null);
+        Jframe.setResizable(false);
+        Jframe.pack();
         //THIS ALWAYS NEEDS TO BE AT THE BOTTOM
         Jframe.setVisible(true);
 
