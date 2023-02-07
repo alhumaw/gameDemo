@@ -1,6 +1,9 @@
 package main;
 
 import javax.swing.*;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowFocusListener;
+
 /*
 This game window class is how we open up our GUI.
 We utilize JFrame to open the GUI
@@ -20,6 +23,16 @@ public class GameWindow {
         Jframe.pack();
         //THIS ALWAYS NEEDS TO BE AT THE BOTTOM
         Jframe.setVisible(true);
+        Jframe.addWindowFocusListener(new WindowFocusListener() {
+            @Override
+            public void windowGainedFocus(WindowEvent e) {
+            }
 
+            @Override
+            public void windowLostFocus(WindowEvent e) {
+                System.out.println("BYEE");
+                gamePanel.getGame().windowFocusLost();
+            }
+        });
     }
 }

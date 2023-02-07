@@ -1,0 +1,16 @@
+
+
+
+UPS (UPDATE PER SECOND):
+Takes care of logic (playermove, event, etc)
+Same on all PCs
+in case there is lag, there is a way to catch up
+
+FPS (FRAME PER SECOND):
+Draws the gamescene (the level, player, enemies, etc)
+Can be changed
+
+Reasons to separate the two:
+    Easier to read the code
+    Can sacrifice some frames to save the Updates
+    Can set different FPS for different systems
